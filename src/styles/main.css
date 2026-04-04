@@ -177,6 +177,8 @@ body {
 
 /* =================== STATS =================== */
 .stats {
+  max-width: 1200px;
+  margin: 0 auto;
   background: linear-gradient(to right, #6c2bd9, #9333ea);
   color: white;
   padding: 40px 0;
@@ -369,6 +371,11 @@ body {
   gap: 25px;
 }
 
+.pricing-grid .btn-primary{
+  width: 100%;
+  margin-top: 20px;
+}
+
 .pricing-card {
   background: white;
   padding: 25px;
@@ -387,8 +394,13 @@ body {
   margin-bottom: 10px;
 }
 
+.pricing-card .starter{
+  padding-bottom: 52px;
+}
+
 .pricing-card ul {
   list-style: none;
+  
 }  
 
 .pricing-card li {
@@ -401,12 +413,13 @@ body {
   top: -15px;
   left: 50%;
   transform: translateX(-50%);
-  background: #facc15;
-  color: #333;
+  background: #fef3c6;
+  color: #bb4d00;
   padding: 6px 16px;
   border-radius: 20px;
   font-size: 14px;
   font-weight: 600;
+  box-shadow: 0 0 12px rgba(251, 191, 36, 0.6);
 }
 
 .pro {
@@ -415,26 +428,38 @@ body {
 }
 
 .pro .btn-primary {
-  background: white;
-  color: #6c2bd9;
+  width: 100%;
+  /* background: white;
+  color: #6c2bd9; */background: white;
+  
+  font-weight: 600;
+  
+}
+
+.pro .btn-primary .gradient-text{
+  background: linear-gradient(to right, #6c2bd9, #9333ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* =================== CTA =================== */
 .cta {
-  margin-top: 60px;
-  padding: 60px 20px;
+  margin-top: 120px;
+  padding: 120px;
   text-align: center;
   background: linear-gradient(to right, #6c2bd9, #9333ea);
   color: white;
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 
 .cta h2 {
-  font-size: 28px;
-  margin-bottom: 10px;
+  font-size: 40px;
+  /* margin-bottom: 10px; */
+  font-weight: 800;
 }
 
 .cta p {
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -519,6 +544,9 @@ body {
 
 /* =================== FOOTER =================== */
 .footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   background: #0f172a;
   color: #cbd5f5;
   padding: 60px 0 20px;

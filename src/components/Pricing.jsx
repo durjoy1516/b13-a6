@@ -15,7 +15,7 @@ const Pricing = () => {
 
           <div className="price">$0 / Month</div>
 
-          <ul>
+          <ul className="starter">
             <li>✔ Access to 10 free tools</li>
             <li>✔ Basic templates</li>
             <li>✔ Community support</li>
@@ -43,7 +43,7 @@ const Pricing = () => {
             <li>✔ Advanced analytics</li>
           </ul>
 
-          <button className="btn-primary">Start Pro Trial</button>
+          <button className="btn-primary"><span className="gradient-text">Start Pro Trial</span></button>
         </div>
 
         {/* ENTERPRISE */}
