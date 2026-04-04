@@ -55,6 +55,7 @@ body {
 
 /* =================== BUTTONS =================== */
 .btn-primary,
+.cart-wrapper a,
 .btn-outline,
 .toggle-buttons button,
 .buy-btn,
@@ -96,7 +97,7 @@ body {
 /* HOVER EFFECT ALL BUTTONS */
 .btn-primary:hover,
 .btn-outline:hover,
-.toggle-buttons button:hover,
+/* .toggle-buttons button:hover, */
 .buy-btn:hover,
 .cta .btn-outline:hover {
   transform: translateY(-4px);
@@ -210,8 +211,8 @@ body {
 }
 
 .active-btn {
-  background: linear-gradient(to right, #6c2bd9, #9333ea);
-  color: white;
+  background: linear-gradient(to right, #6c2bd9, #9333ea) !important;
+  color: white !important;
 }
 
 .products-grid {
