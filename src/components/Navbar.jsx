@@ -19,7 +19,7 @@ const Navbar = ({ cartCount }) => {
           <span className="cart-badge">{cartCount}</span>
         </div>
 
-        <a href="#">Login</a>
+        <a className="login" href="#">Login</a>
         <button className="btn-primary">Get Started</button>
       </div>
     </div>
