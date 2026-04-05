@@ -42,6 +42,13 @@ const Footer = () => {
           </ul>
         </div>
 
+        <div>
+          <h3>Social Link</h3>
+          <div>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+        </div>
+
       </div>
 
       <div className="container footer-bottom">

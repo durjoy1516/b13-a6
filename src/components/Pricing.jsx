@@ -75,11 +75,11 @@ const Pricing = () => {
         </p>
 
         <div className="cta-buttons">
-          <button className="btn-primary">Explore Products</button>
+          <button className="btn-primary"><span className="gradient-text">Explore Products</span></button>
           <button className="btn-outline">View Pricing</button>
         </div>
 
-        <p style={{ fontSize: "12px", marginTop: "10px" }}>
+        <p style={{ fontSize: "14px" }}>
           14-day free trial • No credit card required • Cancel anytime
         </p>
       </div>

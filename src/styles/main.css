@@ -90,8 +90,7 @@ body {
   color: white;
 }
 
-.btn-outline,
-.cta .btn-outline {
+.btn-outline {
   background: transparent;
   color: #6c2bd9;
   border: 1px solid #6c2bd9;
@@ -351,8 +350,10 @@ body {
 
 /* =================== PRICING =================== */
 .pricing {
-  padding: 60px 0;
+  padding-top: 60px;
   text-align: center;
+  /* border: 3px solid yellow; */
+  
 }
 
 .pricing h2 {
@@ -444,12 +445,18 @@ body {
 
 /* =================== CTA =================== */
 .cta {
+  /* border: 3px solid green; */
   margin-top: 120px;
-  padding: 120px;
+  padding: 100px;
   text-align: center;
   background: linear-gradient(to right, #6c2bd9, #9333ea);
   color: white;
   /* border-radius: 12px; */
+}
+
+.cta * {
+  /* margin-top: 0; */
+  margin-bottom: 0;
 }
 
 .cta h2 {
@@ -460,13 +467,35 @@ body {
 
 .cta p {
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .cta-buttons {
   display: flex;
   justify-content: center;
   gap: 15px;
+  font-size:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cta-buttons .btn-primary {
+   background: white;
+  
+  }
+
+.cta-buttons .btn-primary .gradient-text {
+  font-weight: 800;
+  background: linear-gradient(to right, #6c2bd9, #9333ea);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta .btn-outline {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  font-weight: 600;
 }
 
 /* =================== STEPS =================== */
@@ -549,12 +578,13 @@ body {
   margin: 0 auto;
   background: #0f172a;
   color: #cbd5f5;
-  padding: 60px 0 20px;
+  padding: 100px;
+  /* border: 3px solid red */
 }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 40px;
 }
 
