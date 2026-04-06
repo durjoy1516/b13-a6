@@ -16,7 +16,9 @@ const Navbar = ({ cartCount }) => {
       <div className="nav-right">
         <div className="cart-wrapper">
           <img src={cartImg} alt="cart" />
-          <span className="cart-badge">{cartCount}</span>
+           {cartCount > 0 && (
+    <span className="cart-badge">{cartCount}</span>
+  )}
         </div>
 
         <a className="login" href="#">Login</a>

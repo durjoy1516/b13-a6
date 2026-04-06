@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container footer-grid">
 
         <div>
-          <h3>DigiTools</h3>
+          <h3 className="footer-logo">DigiTools</h3>
           <p>
             Premium digital tools for creators, professionals, and businesses.
           </p>
@@ -44,7 +44,9 @@ const Footer = () => {
 
         <div>
           <h3>Social Link</h3>
-          <div>
+          <div className="link-icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-x-twitter"></i>
           </div>
         </div>
@@ -54,9 +56,9 @@ const Footer = () => {
       <div className="container footer-bottom">
         <p>© 2026 DigiTools. All rights reserved.</p>
 
-        <div>
+        <div className="info">
           <span style={{ marginRight: "10px" }}>Privacy Policy</span>
-          <span style={{ marginRight: "10px" }}>Terms</span>
+          <span style={{ marginRight: "10px" }}>Terms of Service</span>
           <span>Cookies</span>
         </div>
       </div>
