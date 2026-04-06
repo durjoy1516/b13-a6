@@ -5,6 +5,7 @@ import Stats from "./components/Stats";
 import Products from "./components/Products";
 import Pricing from "./components/Pricing";
 import Steps from "./components/Steps";
+import CTA from "./components/CTA";
 import Footer from "./components/Footer";
 import { ToastContainer, toast } from "react-toastify";
 
@@ -44,6 +45,7 @@ function App() {
       />
       <Steps/>
       <Pricing/>
+      <CTA />
       <Footer/>
       <ToastContainer position="top-right"/>
     </>
