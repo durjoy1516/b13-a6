@@ -1,4 +1,4 @@
-/* =================== GLOBAL =================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
 }
 
-/* =================== NAVBAR =================== */
+/* NAVBAR  */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -67,7 +67,7 @@ body {
   font-weight: 600;
 }
 
-/* =================== BUTTONS =================== */
+/* BUTTONS  */
 .btn-primary,
 .cart-wrapper a,
 .btn-outline,
@@ -117,7 +117,7 @@ body {
   box-shadow: 0 8px 12px rgba(0,0,0,0.2);
 }
 
-/* =================== BANNER =================== */
+/* BANNER  */
 .banner {
   display: flex;
   align-items: center;
@@ -138,13 +138,14 @@ body {
   gap: 6px;                 
   font-size: 12px;
   line-height: 1;
+  
 }
 
 .badge-img img {
   max-width: 15px;     
   max-height: 15px;
   flex-shrink: 0;  
-  display: block;            
+  display: block;           
 }
 
 .badge-img .badge {
@@ -174,7 +175,7 @@ body {
   border-radius: 12px;
 }
 
-/* =================== STATS =================== */
+/* STATS  */
 .stats {
   max-width: 1200px;
   margin: 0 auto;
@@ -195,7 +196,7 @@ body {
   margin-top: 5px;
 }
 
-/* =================== PRODUCTS =================== */
+/* PRODUCTS  */
 .products-section {
   padding: 60px 0;
   text-align: center;
@@ -296,7 +297,8 @@ body {
 }
 
 .card h3 {
-  margin: 10px 0;
+  padding-top: 30px;
+  /* margin: 10px 0; */
 }
 
 .card p {
@@ -348,7 +350,7 @@ body {
   margin-top: 10px;
 }
 
-/* =================== PRICING =================== */
+/* PRICING  */
 .pricing {
   padding-top: 60px;
   text-align: center;
@@ -443,7 +445,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* =================== CTA =================== */
+/* CTA  */
 .cta-container{
   width: 100%;
   max-width: 1200px;
@@ -499,7 +501,7 @@ body {
   font-weight: 600;
 }
 
-/* =================== STEPS =================== */
+/* STEPS  */
 .steps {
   padding: 80px 0;
   text-align: center;
@@ -572,7 +574,7 @@ body {
   line-height: 1.6;
 }
 
-/* =================== FOOTER =================== */
+/* FOOTER  */
 .footer {
   width: 100%;
   max-width: 1200px;
@@ -647,7 +649,7 @@ body {
   gap: 10px
 }
 
-/* =================== RESPONSIVE =================== */
+/*  RESPONSIVE  */
 @media (max-width: 992px) {
   .steps-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -694,7 +696,7 @@ body {
   }
 }
 
-/* =================== CART BADGE =================== */
+/* CART BADGE */
 .cart-wrapper {
   position: relative;
   display: inline-block;
@@ -725,9 +727,7 @@ body {
 
 
 
-/* =================== RESPONSIVE =================== */
-
-/* Large Devices (<=1200px) */
+/* RESPONSIVE  */
 @media (max-width: 1200px) {
   body {
     padding: 60px;
@@ -747,7 +747,7 @@ body {
 }
 
 
-/* Medium Devices (<=992px) */
+
 @media (max-width: 992px) {
 
   .steps-grid {
@@ -773,7 +773,6 @@ body {
 }
 
 
-/* Tablets & Small Devices (<=768px) */
 @media (max-width: 768px) {
 
   body {
@@ -793,9 +792,38 @@ body {
     text-align: center;
   }
 
+.badge-img {
+  display: inline-flex; 
+  align-items: center; 
+  background: #ede9fe;
+  padding: 4px 12px; 
+  border-radius: 20px;
+  gap: 6px;                 
+  font-size: 12px;
+  line-height: 1;
+  
+}
+
+
+  .badge-img img {
+  max-width: 15px;     
+  max-height: 15px;
+  flex-shrink: 0;
+  /* border: solid red; */
+  display: block;           
+  }
+
+
   .banner img {
     width: 100%;
     margin-top: 20px;
+  }
+
+  .banner .banner-buttons{
+    /* display: flex; */
+    /* align-items: center; */
+    /* border: solid red; */
+    padding-left: 30px ;
   }
 
   .steps-grid,
@@ -834,7 +862,6 @@ body {
   }
 }
 
-/* Extra Small Devices (<=576px) */
 @media (max-width: 576px) {
 
   body {
@@ -869,4 +896,11 @@ body {
   .footer {
     padding: 60px 20px;
   }
+
+  .footer .link-icon{
+  display: flex;
+  gap: 10px;
+  padding-left: 160px;
+  /* border: solid red; */
+}
 }

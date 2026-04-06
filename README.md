@@ -1,16 +1,38 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Name
+DigiTools Platform
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Project Description
 
-## React Compiler
+DigiTools Platform is a simple and responsive website where users can explore digital tools and services. User can browse products, add them to cart and purchase tools easily.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- HTML
+- React.js
+- CSS
+- JavaScript
+- Dynamic Design(DOM)
+- Media Queries(Responsive Design)
+- React-Toastify
+- JSON
+
+---
+
+## Features of This Project
+
+### 1. Responsive Design
+The website works properly on all devices.
+
+### 2. Product Section
+Users can view different products with title, description, price and add the to cart to buy.
+
+### 3. Clean Navigation Bar
+Includes a fixed navbar with logo, menu links, login button and cart badge.
+

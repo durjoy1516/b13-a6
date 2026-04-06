@@ -21,7 +21,7 @@ const Banner = () => {
 
         <div className="banner-buttons">
           <button className="btn-primary">Explore Products</button>
-          <button className="btn-outline">Watch Demo</button>
+          <button className="btn-outline"><i class="fa-regular fa-circle-play"></i>Watch Demo</button>
         </div>
       </div>
 
